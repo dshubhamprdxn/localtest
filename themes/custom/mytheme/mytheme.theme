@@ -1,0 +1,34 @@
+<?php
+
+/**
+* @file
+*
+* Here we write our preprocess and hook functions.
+*/
+
+/**
+* Implement hook_preprocess()
+*/
+
+// function mytheme_preprocess_user(&$variables) {
+//   kint($variables);
+// }
+
+// function mymodules_preprocess_node(&$variables) {
+
+//     if ($variables['node']->getType() == 'articles')
+//     {
+
+//        $contentBody = $variables['node']->get('body')->value;
+
+//        $contentBodyExplode = explode('<a href',$contentBody);
+
+//       ......
+
+//      }
+
+// $variables['content'] = array(
+//                     '#markup' => $content
+//                 );
+
+// }
