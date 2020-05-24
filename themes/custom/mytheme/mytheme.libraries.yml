@@ -4,8 +4,9 @@ global-css:
     theme:
       css/style.css: {}
 
-global-js:
-  js:
-    js/main.js: {}
-  dependencies:
-    - core/jquery
+# global-js:
+#   version: version
+#   js:
+#     js/script.js: {}
+#   dependencies:
+#     - core/jquery
